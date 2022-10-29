@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.91.2">
+    <title>Insertar dispositivos</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/img/favicon.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/img/favicon.png" sizes="16x16" type="image/png">
+    <meta name="theme-color" content="#7952b3">
+
+</head>
+<body>
+<div class="container">
+    <div class="card card-login m-auto mt-5">
+        <div class="card-header">
+            <center>Crear Dispositivo</center></div>
+        <div class="card-body">
+            <form class="user" action="insert_dev.php" method="post" id="form">
+                <div class="form-control-plaintext">
+                    <input type="text" id="nameForm" name="nameForm" class="form-control" placeholder="Nombre del Dispositivo" required="required" autofocus="autofocus"/>
+                </div>
+                <div class="form-floating justify-content-center">
+                    <button class="btn btn-primary btn-user btn-block" type="submit">
+                        Crear
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
